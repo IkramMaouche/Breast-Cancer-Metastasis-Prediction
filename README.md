@@ -5,21 +5,29 @@ This project implements a machine learning model that classifies patients using 
 Prerequisites:
 
 pip==23.0.1
+
 python==3.10.11
+
 matplotlib==3.7.1
+
 pandas==1.5.3
+
 joblib== 1.2.0
 
 
 Sciait-learn==1.1.2
+
 scikit-plot== 0.3.7
+
 missingpy==0.2.0
 
 deap==1.3.3
 lime== 0.2.0.1
 
 xgboost==0.90
+
 lightgbm==2.3.1
+
 catboost==1.1
 
 
@@ -35,6 +43,12 @@ The code for this project is organized into several sections:
 7. Cost sensitive  classification: This section contains the implementation of the three cost-sensitive boosting classifiers CS-XGBoost, CS-LightGBM, and CS-CatBoost. The models are fitted on training data, evaluated with test data, and saved in « .pkl » format.
 8. Local explanation using LIME: This section contains the employment of LIME to provide patient-level explanations on breast cancer metastasis.
 
+Results
+The data are stored in a separate file "data".
+The fitted models are saved in "models" file in pol format.
+The resulted confusion matrices from evaluating the classifiers are presented in folder "figures". 
+
+
 - The code was implemented and executed on google colab.
 
 - If you wish to run the code from scratch you can execute all the code sections sequentially.
@@ -46,9 +60,4 @@ The code for this project is organized into several sections:
 - To run lime explanation code, you may load the saved CS-CatBoost model which is saved in "models" file and run the code.
 
 
-
-Results
-The data are stored in a separate file "data".
-The fitted models are saved in "models" file in pol format.
-The resulted confusion matrices from evaluating the classifiers are presented in folder "figures". 
 
