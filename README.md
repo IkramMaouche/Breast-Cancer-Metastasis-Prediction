@@ -47,7 +47,7 @@ The code for this project is organized into several sections:
 
 
 
-##Results
+Results
 The data are stored in a separate file "data".
 The fitted models are saved in "models" file in pol format.
 The resulted confusion matrices from evaluating the classifiers are presented in folder "figures". 
