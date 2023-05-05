@@ -2,7 +2,7 @@
 
 This project implements a machine learning model that classifies patients using a cost-sensitive CatBoost classifier. The purpose of this project is to provide an automated method for identifying patients with metastasis risk. The quantification of predictive factors on metastasis is measured using LIME technique.
 
-##Prerequisites
+Prerequisites:
 
 pip==23.0.1
 python==3.10.11
@@ -23,7 +23,7 @@ lightgbm==2.3.1
 catboost==1.1
 
 
-##Code Structure
+Code Structure
 
 The code for this project is organized into several sections:
 1. Data loading: This section contains the code that loads the dataset into pandas data frame from excel file, cleaning the data, and converting categorical variables into numerical variables using label encoding.
